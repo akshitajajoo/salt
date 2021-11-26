@@ -19,7 +19,7 @@ require "2-check.php";
 <?php if (isset($failed)) { ?>
 <div id="bad-login">Invalid user or password.</div>
 <?php } ?>
-
+    <h1>hi!</h1>
 <form method="post">
   
   <div class="container">
@@ -52,7 +52,7 @@ $('.SubmitButton').click(function(){ // on submit button click
 
     var urldata = $('#Login_type :selected').val(); // get the selected  option value4
     var name = document.getElementById("user").value;
-    window.open("https://akshitajajoo.github.io/salt-intern/x/"+urldata+"/"+name+"/"+urldata+"_"+name+".html") // open a new window. here you need to change the url according to your wish.
+    window.open("https://akshitajajoo.github.io/salt/x/"+urldata+"/"+name+"/"+urldata+"_"+name+".html") // open a new window. here you need to change the url according to your wish.
 });
 
 </script>
