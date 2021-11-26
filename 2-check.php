@@ -24,6 +24,6 @@ if (isset($_POST["user"]) && !isset($_SESSION["user"])) {
  
 // (C) REDIRECT USER TO HOME PAGE IF SIGNED IN
 if (isset($_SESSION["user"])) {
-  //header("Location: index.php"); // OWN HOME PAGE!
+  header("Location: index.html"); // OWN HOME PAGE!
   exit();
 }
