@@ -20,7 +20,7 @@ require "2-check.php";
 <div id="bad-login">Invalid user or password.</div>
 <?php } ?>
 
-<form action="/new/x/home.php" method="post">
+<form method="post">
   
   <div class="container">
     <label for="user"><b>Username</b></label>
