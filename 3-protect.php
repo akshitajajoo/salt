@@ -7,6 +7,6 @@ if (isset($_POST["logout"])) { unset($_SESSION["user"]); }
  
 // (C) REDIRECT TO LOGIN PAGE IF NOT LOGGED IN
 if (!isset($_SESSION["user"])) {
-  header("Location: 1a-login.php");
+  header("Location: index.html");
   exit();
 }
